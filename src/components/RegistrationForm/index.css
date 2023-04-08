@@ -1,0 +1,143 @@
+/* Write your CSS code here */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100%;
+  padding: 20px;
+}
+
+.heading {
+  font-size: 30px;
+  font-weight: 700;
+  font-family: 'Roboto';
+  color: #ea580c;
+  margin-bottom: 50px;
+}
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 50px;
+  }
+}
+.box-container {
+  width: 50%;
+  box-shadow: 0px 0px #9aa5b1, -1em 0 0.4em #9aa5b1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 200px;
+  padding: 80px 40px 70px 40px;
+}
+@media screen and (max-width: 767px) {
+  .box-container {
+    width: 90%;
+    padding: 20px;
+  }
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+}
+
+.input-element {
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+}
+
+.user-input {
+  width: 220px;
+  border: 1px solid #cbd2d9;
+  height: 35px;
+  border-radius: 4px;
+  margin-top: 10px;
+  padding: 5px 20px 5px 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .user-input {
+    width: 300px;
+  }
+}
+.error-field {
+  background-color: #ff0b370d;
+  border: 1px solid #ff0b37;
+}
+
+.submit-button {
+  width: 100px;
+  padding: 10px 15px 10px 15px;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 500;
+  color: #ffffff;
+  margin-top: 30px;
+  background-color: #ea580c;
+  border-radius: 5px;
+  border-width: 0px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+
+@media screen and (min-width: 768px) {
+  .submit-button {
+    width: 200px;
+  }
+}
+
+.success-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.success-heading {
+  font-size: 25px;
+  font-weight: 600;
+  font-family: 'Roboto';
+  color: #475569;
+  text-align: center;
+}
+
+.resubmit {
+  min-width: 200px;
+  padding: 10px 15px 10px 15px;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  color: #ffffff;
+  margin-top: 30px;
+  background-color: #ea580c;
+  border-radius: 5px;
+  border-width: 0px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  text-align: center;
+}
+
+.error-message {
+  align-self: start;
+  font-size: 12px;
+  margin-top: 3px;
+  margin-bottom: 0px;
+  font-family: 'Roboto';
+  font-size: 12px;
+  line-height: 16px;
+  color: #ff0b37;
+}
+
+@media screen and (min-width: 768px) {
+  .error-message {
+    padding-left: 80px;
+  }
+}
